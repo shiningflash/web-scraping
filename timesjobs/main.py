@@ -28,9 +28,9 @@ def find_jobs(my_skill):
         more_info = job.header.h2.a['href']
 
         suitable_jobs.append({
-            'Company Name': company_name,
-            'Required Skills': skills,
-            'More info': more_info
+            'company_name': company_name,
+            'required_skills': skills,
+            'more_info': more_info
         })
     save_response(suitable_jobs, 'jobs.json')
 

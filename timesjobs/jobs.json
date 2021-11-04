@@ -1,17 +1,82 @@
 [
     {
-        "Company Name": "Surya Informatics Solutions Pvt. Ltd.",
-        "Required Skills": "python, web technologies, linux, mobile, mysql, angularjs, javascript",
-        "More info": "https://www.timesjobs.com/job-detail/python-surya-informatics-solutions-pvt-ltd-chennai-0-to-3-yrs-jobid-UVlLes58wutzpSvf__PLUS__uAgZw==&source=srp"
+        "company_name": "Pure Tech Codex Private Limited",
+        "required_skills": "rest, python, database, django, debugging, mongodb",
+        "more_info": "https://www.timesjobs.com/job-detail/python-pure-tech-codex-private-limited-pune-2-to-3-yrs-jobid-OHwfF0d6EhNzpSvf__PLUS__uAgZw==&source=srp"
     },
     {
-        "Company Name": "Quadeye",
-        "Required Skills": "python, javascript, django, python scripting, linux, html, perl, unix",
-        "More info": "https://www.timesjobs.com/job-detail/python-developer-quadeye-gurgaon-0-to-3-yrs-jobid-fixwGl5QrGFzpSvf__PLUS__uAgZw==&source=srp"
+        "company_name": "Surya Informatics Solutions Pvt. Ltd.",
+        "required_skills": "python, web technologies, linux, mobile, mysql, angularjs, javascript",
+        "more_info": "https://www.timesjobs.com/job-detail/python-surya-informatics-solutions-pvt-ltd-chennai-0-to-3-yrs-jobid-UVlLes58wutzpSvf__PLUS__uAgZw==&source=srp"
     },
     {
-        "Company Name": "JobsLo Consultants",
-        "Required Skills": "python, linux, windows, sql",
-        "More info": "https://www.timesjobs.com/job-detail/python-developer-jobslo-consultants-indore-2-to-3-yrs-jobid-XP1detWpoa5zpSvf__PLUS__uAgZw==&source=srp"
+        "company_name": "Gemini Solutions",
+        "required_skills": "python, mobile, svn, nosql, python scripting, git, api, sql database",
+        "more_info": "https://www.timesjobs.com/job-detail/qa-python-python-sdet-gemini-solutions-gurgaon-4-to-7-yrs-jobid-eGMLzwOk2QlzpSvf__PLUS__uAgZw==&source=srp"
+    },
+    {
+        "company_name": "GT SOLUSN (More Jobs)",
+        "required_skills": "\"Python\"",
+        "more_info": "https://www.timesjobs.com/job-detail/python-developer-gt-solusn-pune-jaipur-3-to-8-yrs-jobid-8LDhFrG7iyFzpSvf__PLUS__uAgZw==&source=srp"
+    },
+    {
+        "company_name": "SB3 Software Solutions Pvt. Ltd. (More Jobs)",
+        "required_skills": "Python Developer, python",
+        "more_info": "https://www.timesjobs.com/job-detail/python-developer-sb3-software-solutions-pvt-ltd-kolkata-4-to-9-yrs-jobid-BXhnSp3FyhlzpSvf__PLUS__uAgZw==&source=srp"
+    },
+    {
+        "company_name": "TandA HR Solutions",
+        "required_skills": "Django framework, Python Developer, core python",
+        "more_info": "https://www.timesjobs.com/job-detail/python-developer-tanda-hr-solutions-mohali-3-to-5-yrs-jobid-GTT0grHZP1tzpSvf__PLUS__uAgZw==&source=srp"
+    },
+    {
+        "company_name": "TEAMPLUS STAFFING SOLUTION PVT. LTD.",
+        "required_skills": "python, python scripting, shell scripting, unix",
+        "more_info": "https://www.timesjobs.com/job-detail/python-developer-teamplus-staffing-solution-pvt-ltd-pune-6-to-9-yrs-jobid-bjMgIT2lz6JzpSvf__PLUS__uAgZw==&source=srp"
+    },
+    {
+        "company_name": "TECHNOPARK TRIVANDRUM",
+        "required_skills": "python, oops, storage",
+        "more_info": "https://www.timesjobs.com/job-detail/python-developer-technopark-trivandrum-thiruvananthapuram-2-to-5-yrs-jobid-__SLASH__Qi1qhVSOZdzpSvf__PLUS__uAgZw==&source=srp"
+    },
+    {
+        "company_name": "Quadeye",
+        "required_skills": "python, javascript, django, python scripting, linux, html, perl, unix",
+        "more_info": "https://www.timesjobs.com/job-detail/python-developer-quadeye-gurgaon-0-to-3-yrs-jobid-fixwGl5QrGFzpSvf__PLUS__uAgZw==&source=srp"
+    },
+    {
+        "company_name": "TandA HR Solutions",
+        "required_skills": "python, git, django",
+        "more_info": "https://www.timesjobs.com/job-detail/python-developers-tanda-hr-solutions-chandigarh-2-to-5-yrs-jobid-OtVSvO0kmYNzpSvf__PLUS__uAgZw==&source=srp"
+    },
+    {
+        "company_name": "TandA HR Solutions",
+        "required_skills": "python, git, django",
+        "more_info": "https://www.timesjobs.com/job-detail/python-developer-tanda-hr-solutions-chandigarh-5-to-8-yrs-jobid-id252yPhiLZzpSvf__PLUS__uAgZw==&source=srp"
+    },
+    {
+        "company_name": "Visionpix Technologies LLP",
+        "required_skills": "python, oops, technical skills,",
+        "more_info": "https://www.timesjobs.com/job-detail/python-developer-visionpix-technologies-llp-bengaluru-bangalore-4-to-10-yrs-jobid-EAoyvX9td4pzpSvf__PLUS__uAgZw==&source=srp"
+    },
+    {
+        "company_name": "BRICKRED TECHNOLOGIES PVT. LTD.",
+        "required_skills": "image processing, python, opencv",
+        "more_info": "https://www.timesjobs.com/job-detail/python-developer-brickred-technologies-pvt-ltd-0-to-3-yrs-jobid-gFvdvfbX1XdzpSvf__PLUS__uAgZw==&source=srp"
+    },
+    {
+        "company_name": "BRICKRED TECHNOLOGIES PVT. LTD.",
+        "required_skills": "image processing, python, opencv",
+        "more_info": "https://www.timesjobs.com/job-detail/python-developer-brickred-technologies-pvt-ltd-0-to-3-yrs-jobid-p9__SLASH__whk__PLUS____PLUS__Ie1zpSvf__PLUS__uAgZw==&source=srp"
+    },
+    {
+        "company_name": "BRICKRED TECHNOLOGIES PVT. LTD.",
+        "required_skills": "image processing, python, opencv",
+        "more_info": "https://www.timesjobs.com/job-detail/python-developer-brickred-technologies-pvt-ltd-0-to-3-yrs-jobid-LHhOOHnAobhzpSvf__PLUS__uAgZw==&source=srp"
+    },
+    {
+        "company_name": "JobsLo Consultants",
+        "required_skills": "python, linux, windows, sql",
+        "more_info": "https://www.timesjobs.com/job-detail/python-developer-jobslo-consultants-indore-2-to-3-yrs-jobid-XP1detWpoa5zpSvf__PLUS__uAgZw==&source=srp"
     }
 ]
