@@ -19,11 +19,9 @@ def find_jobs(my_skill):
     
     for job in jobs:
         published_date = ' '.join(job.find('span', class_='sim-posted').span.text.split())
-        if not "few" in published_date.lower():
-            continue
+        if not "few" in published_date.lower(): continue
         skills = ' '.join(job.find('span', class_='srp-skills').text.split()).replace(' ,', ',')
-        if my_skill.strip().lower() not in skills.lower():
-            continue
+        if my_skill.strip().lower() not in skills.lower(): continue
         company_name = ' '.join(job.find('h3', class_='joblist-comp-name').text.split())
         more_info = job.header.h2.a['href']
 
