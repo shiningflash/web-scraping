@@ -12,9 +12,13 @@ To generate new spider: `$ scrapy genspider <spider-name> <url>`
 
 ### RUN
 
-To run the spider: go to the `spiders` folder and run `$ scrapy runspider wikipedia.py -o articles.json -t json -s CLOSESPIDER_PAGECOUNT=10`.
+To run the spider: go to the `spiders` folder and run
 
-To save response in csv file, `$ scrapy runspider wikipedia.py -o articles.csv -t csv -s CLOSESPIDER_PAGECOUNT=10`
+```
+$ scrapy runspider wikipedia.py -o <filename> -t <file-format> -s <settings_attr_name>=<value>`
+```
+
+For example, to save response in csv file, `$ scrapy runspider wikipedia.py -o articles.csv -t csv -s CLOSESPIDER_PAGECOUNT=10`
 
 Notes:
 
