@@ -7,6 +7,7 @@ To install scrapy, `$pip3 install scrapy`
 ### Command
 
 To create new scrapy project: `$ scrapy startproject <project-name> .`
+
 To generate new spider: `$ scrapy genspider <spider-name> <url>`
 
 ### RUN
