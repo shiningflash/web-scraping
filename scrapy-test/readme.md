@@ -2,7 +2,7 @@
 
 ### Requirements
 
-To install scrapy, `$pip3 install scrapy`
+To install scrapy, `$ pip3 install scrapy`
 
 ### Command
 
