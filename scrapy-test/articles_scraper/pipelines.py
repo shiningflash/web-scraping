@@ -15,5 +15,13 @@ class CheckItemPipeline:
 
 class CleanDatePipeline:
     def process_item(self, article, spider):
-        article['lastUpdated'].replace('This page was last edited on', '').strip()
-        article['lastUpdate'] = datetime.strptime(article['lastUpdated'], '%d %B %Y, at %H:%M')
+        lastUpdated = article['lastUpdated'].split('on')[1].strip()
+        article['lastUpdated'] = datetime.strptime(lastUpdated, '%d %B %Y, at %H:%M')
+        return article
+
+
+class NewsScraperPipeline:
+    def process_item(self, item, spider):
+        # item['date'] = datetime.strptime(item.date.split('T')[0], '%Y-%B-%D')
+        # item['text'] = [text.strip() for text in item.text]
+        return item

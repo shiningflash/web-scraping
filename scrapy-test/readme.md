@@ -33,3 +33,8 @@ custom_settings = {
     "FEED_FORMAT": <format>
 }
 ```
+
+### TIPS
+
+1. Use `ITEM_PIPELINES` in the settings.py file.
+2. Always `ROBOTSTXT_OBEY` should be `True` in the settings.py file.

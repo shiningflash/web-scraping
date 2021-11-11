@@ -66,8 +66,9 @@ ROBOTSTXT_OBEY = True
 # Here, the value of right part determines the order of the pipelines are called in
 # lower number perform first, higher number performs last
 ITEM_PIPELINES = {
-   'articles_scraper.pipelines.CheckItemPipeline': 100,
-   'articles_scraper.pipelines.CleanDatePipeline': 100,
+#    'articles_scraper.pipelines.CheckItemPipeline': 200,
+#    'articles_scraper.pipelines.CleanDatePipeline': 100,
+#    'articles_scraper.pipelines.NewsScraperPipeline': 50,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
