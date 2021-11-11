@@ -9,6 +9,11 @@ class WikipediaSpider(CrawlSpider):
     allowed_domains = ['en.wikipedia.org']
     start_urls = ['https://en.wikipedia.org/wiki/Taylor_Swift']
     
+    custom_settings = {
+        "FEED_URI": "articles.csv",
+        "FEED_FORMAT": "csv"
+    }
+    
     rules = [
         Rule(
             LinkExtractor(allow=r'wiki/((?!:).)*$'),

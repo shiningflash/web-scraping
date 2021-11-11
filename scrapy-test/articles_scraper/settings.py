@@ -62,9 +62,13 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'articles_scraper.pipelines.ArticlesScraperPipeline': 300,
-#}
+
+# Here, the value of right part determines the order of the pipelines are called in
+# lower number perform first, higher number performs last
+ITEM_PIPELINES = {
+   'articles_scraper.pipelines.CheckItemPipeline': 100,
+   'articles_scraper.pipelines.CleanDatePipeline': 100,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
@@ -86,3 +90,5 @@ ROBOTSTXT_OBEY = True
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+
