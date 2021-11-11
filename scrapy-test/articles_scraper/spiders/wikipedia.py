@@ -1,4 +1,5 @@
 import scrapy
+from articles_scraper.items import Article
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
 
@@ -17,8 +18,8 @@ class WikipediaSpider(CrawlSpider):
     ]
 
     def parse(self, response):
-        return {
-            'title': response.xpath('//h1/text()').get() or response.xpath('//h1/i/text()').get(),
-            'url': response.url,
-            'last_edited': response.xpath('//li[@id="footer-info-lastmod"]/text()').get()
-        }
+        article = Article()
+        article['title'] = response.xpath('//h1/text()').get() or response.xpath('//h1/i/text()').get().strip()
+        article['url'] = response.url.strip()
+        article['lastUpdated'] = response.xpath('//li[@id="footer-info-lastmod"]/text()').get().strip()
+        return article
