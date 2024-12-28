@@ -1,4 +1,46 @@
-venv
-.venv
-.vscode
-.idea
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+.env
+venv/
+ENV/
+
+# Scrapy
+.scrapy/
+*.egg-info
+*.log
+*.sqlite3
+*.db
+
+# Byte-compiled files
+*.swp
+*.swo
+
+# Output files
+data/
+*.json
+*.csv
+*.xml
+*.tsv
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# System Files
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+
+# VS Code
+.vscode/
+
+# Others
+logs/
+*.log
+debug.log
+nohup.out
