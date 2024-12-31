@@ -130,5 +130,6 @@ Output will be saved in `jobs.json`.
 ## Contact
 
 For any inquiries or suggestions:
+
 **Author**: Amirul Islam Al Mamun
 **GitHub**: [shiningflash](https://github.com/shiningflash)

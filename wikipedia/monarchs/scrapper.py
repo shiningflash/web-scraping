@@ -70,5 +70,5 @@ for monarch in monarchs:
     name = monarch['Name']
     birth_year = monarch['Birth Year'] if monarch['Birth Year'] else ''
     death_year = monarch['Death Year'] if monarch['Death Year'] else ''
-    print(f"{name:<40}{birth_year:<15}{death_year:<15}")
+    print(f"{name:<30}{birth_year:<15}{death_year:<15}")
     
